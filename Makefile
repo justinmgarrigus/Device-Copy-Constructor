@@ -10,3 +10,8 @@ fixed:
 
 error: 
 	make FLAGS="-DDEVICE_COPY_CONSTRUCTOR_ERROR"
+	
+clean: 
+	rm -f a.out 
+	rm -f error.o 
+	rm -f link.o 
